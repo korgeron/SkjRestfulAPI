@@ -1,3 +1,12 @@
+### THIS API IS USED TO STORE T-SHIRT DATA ###
+
+--Tshirt Model:
+              {
+                'name' : 'Dragon T-shirt',
+                'size' : 'SM',
+                'price' : '10.99'
+              }
+
 Call to this API using the following URLS.
 
 
