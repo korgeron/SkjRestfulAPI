@@ -14,6 +14,6 @@ URL for viewing all shirts: http://skj-api.us-east-2.elasticbeanstalk.com/api/sh
 
 URL for adding a shirt: http://skj-api.us-east-2.elasticbeanstalk.com/api/shirts/add-product
 
-URL for editing a shirt: http://skj-api.us-east-2.elasticbeanstalk.com/api/shirts/edit/{shirt ID}
+URL for editing a shirt: http://skj-api.us-east-2.elasticbeanstalk.com/api/shirts/edit/{shirt_ID}
 
-URL for deleting a shirt: http://skj-api.us-east-2.elasticbeanstalk.com/api/shirts/delete/{shirt ID}
+URL for deleting a shirt: http://skj-api.us-east-2.elasticbeanstalk.com/api/shirts/delete/{shirt_ID}
