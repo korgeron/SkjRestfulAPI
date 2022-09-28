@@ -10,17 +10,24 @@ public class Shirt {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "Name")
+    @Column(name = "name")
     private String name;
-    @Column(name = "Size")
+    @Column(name = "size")
     private String size;
-    @Column(name = "Price")
-    private Long price;
+    @Column(name = "price")
+    private String price;
 
     public Shirt() {
     }
 
-    public Shirt(String name, String size, Long price) {
+    public Shirt(String name, String size, String price) {
+        this.name = name;
+        this.size = size;
+        this.price = price;
+    }
+
+    public Shirt(Long id, String name, String size, String price) {
+        this.id = id;
         this.name = name;
         this.size = size;
         this.price = price;
@@ -50,11 +57,11 @@ public class Shirt {
         this.size = size;
     }
 
-    public Long getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(Long price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 }

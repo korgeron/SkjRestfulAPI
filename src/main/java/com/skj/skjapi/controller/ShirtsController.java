@@ -20,7 +20,7 @@ public class ShirtsController {
 
     @PostMapping("/shirts/add")
     public String addShirt(String name, String size, String price){
-        shirts.save(new Shirt(name, size, Long.parseLong(price)));
+        shirts.save(new Shirt(name, size, price));
         return "redirect:/api/shirts/all-products";
     }
 }
